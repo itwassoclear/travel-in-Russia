@@ -1,0 +1,30 @@
+@import url('../__url-heading/place__url-heading.css');
+@import url('../__url/place__url.css');
+
+.place__website {
+    align-self: flex-end;
+    max-width: 484px;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__website {
+        width: 100%;
+        max-width: 456px;
+        margin: 0 0 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__website {
+        width: 100%;
+        max-width: 352px;
+        margin: 0 0 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        display: none;
+    }
+}

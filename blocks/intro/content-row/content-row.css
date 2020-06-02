@@ -1,0 +1,14 @@
+@import url('./__main-text/content-row__main-text.css');
+
+.content-row {
+    margin: 48px 0 0;
+    display: flex;
+    align-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .content-row {
+        width: 100%;
+        margin: 32px 0 0;
+    }
+}

@@ -1,0 +1,22 @@
+@import url('../header/nav/nav.css');
+
+.header {
+    display: flex;
+    position: relative;
+    max-width: 1184px;
+    margin: 30px auto 0;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        width: 100%;
+        margin: 16px auto 0;
+    }
+}

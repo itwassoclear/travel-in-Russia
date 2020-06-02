@@ -1,0 +1,32 @@
+@import url('./_active/header__link_active.css');
+
+.header__link {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity .5s ease;
+    right: 0;
+    }
+    
+.header__link:hover {
+    opacity: .7;
+    transition: .2s;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

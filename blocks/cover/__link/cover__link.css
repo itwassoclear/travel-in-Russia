@@ -1,0 +1,57 @@
+@import url('../__subtitle/cover__subtitile.css');
+@import url('../__titile/cover__titile.css');
+
+.cover__link {
+    display: flex;
+    position: relative;
+    color: white;
+    width: 100%;
+    max-width: 1184px;
+    padding-bottom: 41.4%;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../../../images/cover.jpg');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.cover__link:hover {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../../../images/cover.jpg');
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cover__link {
+        width: 100%;
+        padding-bottom: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__link {
+        width: 100%;
+        padding-bottom: 55%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__link {
+        width: 100%;
+        padding-bottom: 65%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .cover__link {
+        width: 100%;
+        padding-bottom: 72%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cover__link {
+        width: 100%;
+        padding-bottom: 67.5%;
+    }
+}
