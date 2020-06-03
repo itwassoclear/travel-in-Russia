@@ -1,0 +1,19 @@
+.comment__blockquote {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 382px;
+    margin: 42px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .comment__blockquote {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 24px 0 0;
+        order: 2;
+    }
+}

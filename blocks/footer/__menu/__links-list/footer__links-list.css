@@ -1,0 +1,20 @@
+@import url('../__link/footer__link.css');
+
+.footer__links-list {
+    list-style: none;
+    margin: 0 18px 0 0;
+}
+
+.footer__links-list:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links-list {
+        
+        margin: 0 0 32px;
+    }
+    .footer__links-list:last-child {
+        margin: 0;
+    }
+}

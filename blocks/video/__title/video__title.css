@@ -1,0 +1,47 @@
+.video__title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FFFFFF;
+    z-index: 2;
+    left: 30px;
+    bottom: 61px;
+    margin: 0;
+    position: absolute;
+    max-width: 322px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .video__title {
+        bottom: 66px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__title {
+        left: 24px;
+        bottom: 45px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .video__title {
+        left: 24px;
+        bottom: 40px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__title {
+        left: 16px;
+        bottom: 34px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
